@@ -1,29 +1,48 @@
 # 数据结构
 * [x] 栈
    - [x] 数组实现
-      * [x] void push()：入栈
+      * [x] void push(int value)：入栈
       * [x] int pop()：返回栈顶元素并出栈
       * [x] int top()：返回栈顶元素
       * [x] int size()：返回当前栈内元素数量
       * [x] bool empty()：判断当前栈是否为空
+      * [x] void print()：打印当前栈
    - [x] 链表实现
-      * [x] void push()：入栈
+      * [x] void push(int value)：入栈
       * [x] int pop()：返回栈顶元素并出栈
       * [x] int top()：返回栈顶元素
       * [x] int size()：返回当前栈内元素数量
       * [x] bool empty()：判断当前栈是否为空    
+      * [x] void print()：打印当前栈
 * [x] 队列 
    - [x] 数组实现
-      * [x] void push()：入队
+      * [x] void push(int value)：入队
       * [x] int pop()：返回队首元素并出队
       * [x] int front()：返回队首元素
       * [x] int back()：返回队尾元素
       * [x] int size()：返回当前队内元素数量
       * [x] bool empty()：判断当前栈是否为空
+      * [x] void print()：打印当前队列
    - [x] 链表实现
-      * [x] void push()：入队
+      * [x] void push(int value)：入队
       * [x] int pop()：返回队首元素并出队
       * [x] int front()：返回队首元素
       * [x] int back()：返回队尾元素
       * [x] int size()：返回当前队内元素数量
       * [x] bool empty()：判断当前栈是否为空
+      * [x] void print()：打印当前队列
+* [x] 二叉搜索树
+   - [x] TreeNode * search(TreeNode *head, int val)：返回节点值为给定值的节点，不存在返回NULL
+   - [x] TreeNode* findMin(TreeNode *head)：返回树中最小值的节点，若树为空返回NULL
+   - [x] TreeNode* findMax(TreeNode *head)：返回树中最小值的节点，若树为空返回NULL
+   - [x] TreeNode* insert(TreeNode *head, int val)：判断树中是否已有该值，若没有则调用insert
+   - [x] TreeNode* insert2(TreeNode *head, int val)：插入给定值到树中
+   - [x] TreeNode* remove(TreeNode *head, int val)：判断树中是否已有该值，若有则调用remove
+   - [x] TreeNode *remove2(TreeNode *head, int val)：删除树中值为给定值的节点
+   - [x] void pre_rec(TreeNode *head)：递归前序遍历
+   - [x] void in_rec(TreeNode *head)：递归中序遍历
+   - [x] void post_rec(TreeNode *head)：递归后序遍历
+   - [x] void pre_ite(TreeNode *head)：迭代前序遍历
+   - [x] void in_ite(TreeNode *head)：迭代中序遍历
+   - [x] void post_ite(TreeNode *head)：迭代后序遍历
+   - [x] void level(TreeNode *head)：层次遍历
