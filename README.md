@@ -46,3 +46,13 @@
    - [x] void in_ite(TreeNode *head)：迭代中序遍历
    - [x] void post_ite(TreeNode *head)：迭代后序遍历
    - [x] void level(TreeNode *head)：层次遍历
+* [x] 优先队列
+   - [x] int heap_maximum()：返回当前队列最大值
+   - [x] int extract_max()：返回队列最大值，并在队列中删除
+   - [x] void increase(int i, int newval)：将第i个元素(从0开始)改为新值newval，若新值小于该元素旧值，不做改动
+   - [x] void insert(int val)：插入新值
+   - [x] void print()：打印当前队列
+* [x] 排序
+   - [x] 堆排序
+   - [x] 快速排序
+   - [x] 归并排序
